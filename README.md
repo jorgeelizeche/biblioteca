@@ -142,6 +142,8 @@ Se pasan los datos en el body:
 ```
 Respuesta esperada:
 
+
+
 Codigo para el registro:
 ```python
 class RegistroView(APIView):
@@ -312,12 +314,18 @@ Visualización: Gráfico de barras verticales, con etiquetas encima de cada barr
 
 Archivo generado: 1_libros_por_genero.png
 
+<img width="984" height="584" alt="Image" src="https://github.com/user-attachments/assets/4182d3f8-5e33-48be-bedb-f6e59cdb0861" />
+
+
 ### 🖋️ 2. Top 10 autores con más libros
 Descripción: Lista los 10 autores que han publicado más libros en el sistema.
 
 Visualización: Gráfico de barras horizontales ordenado de mayor a menor.
 
 Archivo generado: 2_autores_mas_libros.png
+
+<img width="712" height="485" alt="Image" src="https://github.com/user-attachments/assets/b830e007-8751-4896-a499-5b49d6485ae1" />
+
 
 ### 📚 3. Top 10 libros más calificados
 Descripción: Muestra los libros que más calificaciones han recibido.
@@ -326,12 +334,16 @@ Visualización: Gráfico de barras horizontales.
 
 Archivo generado: 3_libros_mas_calificados.png
 
+<img width="797" height="485" alt="Image" src="https://github.com/user-attachments/assets/bfd6a739-acbb-4920-99ea-a6331ae7eac2" />
+
 ### 🌟 4. Promedio de calificación por género
 Descripción: Calcula y muestra el promedio de calificaciones de los libros agrupados por género.
 
 Visualización: Barras con valores flotantes redondeados a 2 decimales encima.
 
 Archivo generado: 4_promedio_genero.png
+
+<img width="984" height="584" alt="Image" src="https://github.com/user-attachments/assets/2c2adb79-23c8-4f5b-b352-40b332ded1c0" />
 
 ### 📕 5. Top 10 libros con mejor promedio de calificación
 Descripción: Lista los 10 libros con el mayor promedio de calificación.
@@ -340,12 +352,16 @@ Visualización: Gráfico de barras horizontales.
 
 Archivo generado: 5_promedio_libro.png
 
+<img width="801" height="485" alt="Image" src="https://github.com/user-attachments/assets/49ac1763-d739-4897-a4cb-5bd6fe2e56df" />
+
 ### 👤 6. Promedio de calificación por usuario
 Descripción: Muestra el promedio de puntuaciones que cada usuario ha dado.
 
 Visualización: Barras verticales con nombres rotados y valores flotantes.
 
 Archivo generado: 6_promedio_usuario.png
+
+<img width="1384" height="584" alt="Image" src="https://github.com/user-attachments/assets/4f332735-71f1-45aa-9b6a-9848473f0618" />
 
 ### 🧑‍💻 7. Top 10 usuarios con más calificaciones
 Descripción: Lista los usuarios que más libros han calificado.
@@ -354,12 +370,16 @@ Visualización: Gráfico de barras horizontales con etiquetas al final de cada b
 
 Archivo generado: 7_usuarios_mas_calificaron.png
 
+<img width="984" height="584" alt="Image" src="https://github.com/user-attachments/assets/7157d335-35b8-4e23-ae57-ff81123bdf6f" />
+
 ### 🔥 8. Mapa de calor: usuario vs género
 Descripción: Tabla de calor que muestra el promedio de calificaciones que cada usuario ha dado por género.
 
 Visualización: Heatmap con anotaciones numéricas.
 
 Archivo generado: 8_mapa_calor_usuario_genero.png
+
+<img width="1020" height="704" alt="Image" src="https://github.com/user-attachments/assets/4b0c1310-a3e8-47b8-9d1d-c8926d818af4" />
 
 ### 🔥 9. Mapa de calor: usuario vs libro
 Descripción: Heatmap que cruza usuarios y libros con las calificaciones que han otorgado.
@@ -368,12 +388,16 @@ Visualización: Mapa de calor con escala de colores e información flotante.
 
 Archivo generado: 9_heatmap_puntuaciones.png
 
+<img width="1828" height="1484" alt="Image" src="https://github.com/user-attachments/assets/8c3037a3-3723-4778-9fb9-8ed1c33ea107" />
+
 ### ⚖️ 10. Comparación entre cantidad y promedio de calificaciones
 Descripción: Muestra los 10 libros con más calificaciones, comparando cantidad vs. promedio.
 
 Visualización: Gráfico de dispersión con etiquetas de título en cada punto.
 
 Archivo generado: 10_cantidad_vs_promedio.png
+
+<img width="1184" height="684" alt="Image" src="https://github.com/user-attachments/assets/15a30b0c-bc69-4b61-9a62-3d9bef04af46" />
 
 ### 🗂️ Ubicación de los gráficos
 Todos los archivos se generan dentro de la carpeta:
