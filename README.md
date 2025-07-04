@@ -142,7 +142,7 @@ Se pasan los datos en el body:
 ```
 Respuesta esperada:
 
-
+<img width="1494" height="406" alt="Image" src="https://github.com/user-attachments/assets/b527a8e1-35dd-494a-8613-8edf4882b03d" />
 
 Codigo para el registro:
 ```python
@@ -170,7 +170,10 @@ Se pasan las credenciales en el body:
 }
 ```
 Se genera un jwt token, que nos va a servir para autenticar las demas aplicaciones.
+
 Respuesta esperada:
+
+<img width="1486" height="496" alt="Image" src="https://github.com/user-attachments/assets/b14ff283-b723-4342-a379-81beb79f5f85" />
 
 ### Prueba Api Libros
 ### Listar Todos los libros:
@@ -181,6 +184,8 @@ GET http://127.0.0.1:8000/api/libros/
 Se pasa el jwt generado en el login para autenticar.
 
 Respuesta esperada:
+
+<img width="1490" height="880" alt="Image" src="https://github.com/user-attachments/assets/0bb2be16-12c9-441c-a399-531d3e76cd83" />
 
 Codigo para listar todos:
 ```python
@@ -200,6 +205,8 @@ Se pasa el id del libro que se quiere listar en la url.
 Se pasa el jwt generado en el login para autenticar.
 
 Respuesta esperada:
+
+<img width="1494" height="528" alt="Image" src="https://github.com/user-attachments/assets/ff2b3b92-d96e-4f22-b859-667c1cba2f5f" />
 
 Codigo para listar por id:
 ```python
@@ -233,6 +240,8 @@ Se pasan los datos en el body:
 
 Respuesta esperada:
 
+<img width="1486" height="720" alt="Image" src="https://github.com/user-attachments/assets/32787a62-ab87-4b73-839e-2e84c06be951" />
+
 Codigo para insertar libro:
 ```python
 def create(self, request):
@@ -265,6 +274,8 @@ Se pasan los datos en el body:
 
 Respuesta esperada:
 
+<img width="1490" height="646" alt="Image" src="https://github.com/user-attachments/assets/70783035-2d69-4c1d-869d-10caa95b5e38" />
+
 Codigo para actualizar libro:
 ```python
 def update(self, request, pk=None):
@@ -287,6 +298,8 @@ Se pasa el id del libro que se quiere eliminar en la url.
 Se pasa el jwt generado en el login para autenticar.
 
 Respuesta esperada:
+
+<img width="1484" height="412" alt="Image" src="https://github.com/user-attachments/assets/98fd3370-03bb-43a4-9c66-a16aeae66af0" />
 
 Codigo para eliminar libro:
 ```python
@@ -406,7 +419,6 @@ Todos los archivos se generan dentro de la carpeta:
 biblioteca/graficos/
 ```
 
-
 ## Recomendador de libros por género
 El sistema incluye un comando personalizado que permite al usuario obtener recomendaciones de libros por género, ordenados por promedio de calificaciones.
 
@@ -428,7 +440,7 @@ python manage.py recomendar_libros --genero=3
 🔍 ¿Qué muestra?
 El resultado se imprime en consola en forma de tabla, utilizando tabulate (si está instalado). La tabla contiene:
 
-IMAGEN
+<img width="620" height="446" alt="Image" src="https://github.com/user-attachments/assets/74e0f8a7-3ee0-43de-b193-5b92132e53c9" />
 
 ### 🧠 ¿Cómo funciona internamente?
 - Lee el argumento --genero=N desde consola.
